@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+img{
+    width: 100px;
+}
