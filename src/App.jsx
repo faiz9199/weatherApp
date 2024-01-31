@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Card from "./components/Card";
 
-const baseURL = 'http://api.weatherapi.com/v1/current.json?key=ea25569d59ff48f997b161112243001&q';
+const baseURL = 'https://api.weatherapi.com/v1/current.json?key=ea25569d59ff48f997b161112243001&q';
 
 function App() {
   const [weatherData, setWeatherData] = useState(null);
